@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="UZAIR is a Web Developer/Designer with experience in various projects, such as website design and coding, logo design....">
+    <meta name="keywords" content="Web Designer, Web Design, Web Developer, design, digital, digital art, art, logo, logo design, marketing, website, create website, web developer, marketing, developer, html, css, figma, python, web hosting, hosting, web ">
+    <meta name="author" content="Uzair Petkar, Web Developer/Designer">
+    <title>Uzair.Portfolio</title>
+    <link rel="shortcut icon" type="x-icon" href="images/user.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"></link>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div>
+                    <h1><span class="blue-txt">U</span>ZAIR</h1>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer/Designer</p>
+                <h1>Hi, I'm <span>Uzair</span><br>Petkar from Dapoli</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------about------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Hello, my name is Uzair Petkar, and I am Web Developer/Designer based in Dapoli. My work combines themes such as science and nature on one hand, and fantasy on the other, with the use of both traditional and digital media.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Website Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Cloud Computing</span><br>Cloud Computing</li>
+                            <li><span>Cyber Security</span><br>Ethical Hacking</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Khadija Computer Institute</span><br>Data Entry</li>
+                            <li><span>2022 - Current</span><br>Freelancer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Secondary School Certificate</span><br>Central Board of Secondary Education<br>2018</li>
+                            <li><span>Higher Secondary Certificate</span><br>Maharastra Board<br>2020</li>
+                            <li><span>Bachelor of Information Technology</span><br>University of Mumbai<br>2023</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------services---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I use HTML, CSS and JS to define the appearance of web page elements in order to define the structure and content, extremely attractive in terms of design.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I aim to create a positive user experience that encourages customers to stick with a brand or product. While a UX Designer decides how the user interface works, the UI designer decides how the user interface looks.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Design and development. Create a wireframe. Get your app designed.Testing and launch. Test your app with a focus group.Launch your app.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfolio--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Website design</h3>
+                        <p>Modern website design created with the help of the most modern tools.</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Advertising</h3>
+                        <p>Modern advertising design to boost your business.</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>App Design</h3>
+                        <p>Design and prototyping of your application using the most modern tools.</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -----------contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-phone-square-alt"></i>+91 8552020494</p>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/in/uzair-petkar"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/UZAIR0821"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://instagram.com/uzair_petkar"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/uzair.petkar.9"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <a href="images/My CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formsubmit.co/uzairpetkar1@gmail.com" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>2023 © Uzair Petkar | All rights reserved</p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
